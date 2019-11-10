@@ -4,6 +4,7 @@
     <classes>
       <class name="com.javacodegeeks.testng.maven.TestNgMavenExample"/>
       <class name="com.javacodegeeks.testng.maven.TestNgMavenSecondClass"/>
+      <class name="com.javacodegeeks.testng.maven.TestNgMavenThirdClass"/>
     </classes>
   </test>
 </suite>
