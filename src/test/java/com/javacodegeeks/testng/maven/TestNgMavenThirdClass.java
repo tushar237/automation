@@ -1,12 +1,17 @@
+package com.javacodegeeks.testng.maven;
+
 import org.openqa.selenium.By;  
 import org.openqa.selenium.JavascriptExecutor;  
 import org.openqa.selenium.WebDriver;  
-import org.openqa.selenium.chrome.ChromeDriver;  
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;  
   
 public class TestNgMavenThirdClass {  
   
-    public static void main(String[] args) {  
+	@Test
+    public void otherTest() {
       
+		System.out.println("This is a automation test");
            // System Property for Chrome Driver   
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");  
           
