@@ -6,12 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;  
   
-public class TestNgMavenThirdClass {  
+public class TestNgMavenThirdClass1 {  
   
 	@Test
     public void otherTest() {
       
-		System.out.println("This is a automation test");
+		System.out.println("This is a automation test 1");
            // System Property for Chrome Driver   
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");  
           
